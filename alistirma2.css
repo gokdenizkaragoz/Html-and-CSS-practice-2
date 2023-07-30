@@ -1,0 +1,68 @@
+* {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 26px;
+
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#time {
+  font-size: 18px;
+  font-style: italic;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.list {
+  list-style: none;
+}
+
+.first-header {
+  color: red;
+  background-color: #f7f7f7;
+}
+
+.first-p {
+  font-weight: bold;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-right: 3px solid #1098ad;
+  border-left: 3px solid #1098ad;
+}
+
+li:nth-child(2) {
+  font-weight: bold;
+}
+
+li:last-child {
+  color: red;
+}
+
+article p:last-child {
+  color: blue;
+}
